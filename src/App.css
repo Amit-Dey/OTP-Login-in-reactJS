@@ -1,0 +1,71 @@
+.App {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* space between the input fields */
+}
+
+.otp-container input {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.otp-container input:focus {
+    border-color: #007bff;
+}
+
+.otp-container input:last-child {
+    margin-right: 0;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:disabled:hover {
+    background-color: #b1b0b0;
+}
+
+.phone-input{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+     
+}
